@@ -1,0 +1,35 @@
+Übung: Anwendung der ISO/IEC 25010 Qualitätsmerkmale
+
+Beschreibung der Anwendung:
+EasyStay - globale Hotelbuchungsplattform
+
+EasyStay ist eine umfassende App, die Nutzern weltweit das Suchen und Buchen von Hotelzimmern ermöglicht. Die Plattform bietet Funktionen zur Preisvergleichung, Nutzerrückmeldungen, Echtzeitbuchungsbestätigung und Verwaltung sowie Zugang zu Sonderangeboten und Rabattgutscheinen.
+
+Aufgabe:
+Ihre Aufgabe ist es, die ISO/IEC 25010 Qualitätsmerkmale auf EasyStay anzuwenden. Identifizieren Sie für jedes der folgenden Merkmale konkrete Anwendungsbereiche/Beispiele innerhalb der Hotelbuchungsplattform:
+
+Zusammenfassung der ISO/IEC 25010 Qualitätsmerkmale:
+
+1. Funktionalität:
+   - Fähigkeit einer Software, die geforderten Funktionen gemäß spezifizierten Anforderungen zu erfüllen.
+
+2. Zuverlässigkeit:
+   - Fähigkeit der Software, unter festgelegten Bedingungen zu funktionieren, ohne Fehlfunktionen zu verursachen.
+
+3. Benutzbarkeit:
+   - Bequemlichkeit und Effizienz, mit der Nutzer die Software nutzen und lernen können.
+
+4. Effizienz:
+   - Fähigkeit der Software, mit minimalem Zeitaufwand und Ressourcenverbrauch zu arbeiten.
+
+5. Änderbarkeit:
+   - Möglichkeit der Software, Änderungen zu integrieren, ohne die bestehende Funktionalität zu beeinträchtigen.
+
+6. Übertragbarkeit:
+   - Fähigkeit der Software, auf verschiedenen Plattformen und Umgebungen ohne großen Aufwand zu laufen.
+
+7. Sicherheit:
+   - Fähigkeit der Software, bedrohliche Gefahren und unerlaubten Zugriff zu verhindern sowie den Schutz vertraulicher Daten sicherzustellen.
+
+8. Kompatibilität:
+   - Fähigkeit der Software, sinnvoll und effizient mit anderen Systemen und Anwendungen zu kooperieren.
