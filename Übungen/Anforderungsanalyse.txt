@@ -1,0 +1,28 @@
+Übung: Anforderungsanalyse anhand einer Projektbeschreibung
+
+Aufgabe: Identifizieren Sie möglichst viele Anforderungen (funktional/nicht-funktional)
+
+Projektbeschreibung: Liebes Entwicklerteam,
+wenn ich an meine Zeit als Studentin zurückdenke, erinnere ich mich an die Herausforderungen, die große Informationsmengen und Prüfungsvorbereitungen mit sich bringen. Ich träumte davon, das Lernen effizienter und angenehmer zu gestalten. Deshalb möchte ich eine App entwickeln, die das Lernen modernisiert und optimal unterstützt: die StudyBuddy-App.
+Diese App soll den Nutzern die Möglichkeit bieten, Karten mit Fragen und Antworten zu erstellen und damit zu lernen. Die Vielfalt ist wichtig, und daher soll es zwei Kartentypen geben: Karten mit Multiple-Choice-Antworten für strukturierte Optionen und Freitextkarten für offene, tiefere Antworten. Es ist essenziell, dass jede Karte einen Schwierigkeitsgrad erhalten kann, damit die Lernenden ihre Fortschritte effektiv steuern können.
+Eine umfassende Übersicht über alle Karten ist von entscheidender Bedeutung, damit die Nutzer ihre Lernthemen leicht erfassen können. Die Bearbeitbarkeit ist hier ebenfalls ein Schlüssel: Karten sollen einfach zu ändern sein, um ständige Anpassungen und Aktualisierungen zu ermöglichen.
+Ein Lernmodus, der es den Lernenden erlaubt, beliebig viele zufällige Karten zu wählen und sie nacheinander zu bearbeiten, ist mir wichtig. Mit einem integrierten Scoresystem nach jeder Runde können die Lernenden ihre Erfolge sehen. Dies sollte durch eine Lernstatistik ergänzt werden, die ihre Fortschritte aufzeigt.
+Ziel ist es, die App so zu gestalten, dass sie gemäß den ISO/IEC 25010 Qualitätsmerkmalen höchste Standards erfüllt – von Funktionalität bis Benutzbarkeit. Die Programmierung soll ausschließlich in Python erfolgen.
+Ich freue mich auf die Präsentation der Anwendung am 30.05.2025 und bin gespannt auf die innovativen Lösungen, die ihr entwickeln werdet. Gemeinsam werden wir die Art und Weise, wie Studierende lernen, revolutionieren.
+
+Mit besten Grüßen,
+Marie Hoffmann
+
+Funktionale Anforderungen:
+- 
+
+- 
+
+-
+
+Nicht-funktionale Anforderungen:
+- 
+
+- 
+
+- 
