@@ -32,9 +32,16 @@ class Container(Generic[T]):
 # Aufgabe 1:
 # Erstelle einen Container für Ganzzahlen, füge mehrere Zahlen hinzu und gib die Anzahl aus.
 
+zahlen_container = Container[int]()
+zahlen_container.hinzufuegen(10)
+zahlen_container.hinzufuegen(20)
+zahlen_container.hinzufuegen(30)
+print(f"Größe des Zahlencontainers: {zahlen_container.groesse()}")  # Ausgabe: 3
+
 
 # Aufgabe 2:
 # Hole das zweite Element aus dem Container und gib es aus.
+print(f"Zweites Element: {zahlen_container.holen(1)}")  # Ausgabe: 20
 
 
 # Typbeschränkung: Nur Klassen, die von Basisklasse Animal erben
@@ -76,6 +83,11 @@ class Katze(Animal):
 # Aufgabe 3:
 # Erstelle einen Zoo, füge Hunde und Katzen hinzu und gib alle Tierstimmen aus.
 
+mein_zoo = Zoo[Animal]()
+mein_zoo.neues_tier(Hund())
+mein_zoo.neues_tier(Katze())
+print(mein_zoo.alle_stimmen())  # Ausgabe: ['Wuff!', 'Miau!']
+
 
 # Aufgabe 4:
 # Versuche, einen Container mit einem Nicht-Animal-Typ zu erstellen (z.B. int) und beobachte den Typfehler.
@@ -94,6 +106,8 @@ def tausche(a: U, b: V) -> tuple[V, U]:
 
 # Aufgabe 5:
 # Teste die Funktion tausche mit verschiedenen Typen.
+print(tausche(1, "eins"))  # Ausgabe: ('eins', 1)
+print(tausche(3.14, [1, 2, 3]))  # Ausgabe: ([1, 2, 3], 3.14)
 
 
 # Aufgabe 6:

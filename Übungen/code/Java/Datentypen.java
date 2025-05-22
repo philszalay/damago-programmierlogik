@@ -27,6 +27,8 @@ public class Datentypen {
         //
         // TODO: int geburtsjahr = ...;
 
+        int geburtsjahr = 1994;
+
 
         // 2) float / double
         // Erklärung:
@@ -47,6 +49,10 @@ public class Datentypen {
         //
         // TODO: double kontostand = ...
 
+        float temperatur = 100024.57654357237823f;
+
+        double kontostand = 0.00000000001;
+
         
         // 3) boolean
         // Erklärung:
@@ -58,6 +64,8 @@ public class Datentypen {
         //   ihr true oder false zu (je nachdem, ob du bereits 18 bist).
         //
         // TODO: boolean istVolljaehrig = ...;
+
+        boolean istVolljaehrig = true;
 
 
         // 4) char
@@ -72,6 +80,8 @@ public class Datentypen {
         //
         // TODO: char initiale = ' ';
 
+        char initiale = 'P';
+
 
         // 5) String
         // Erklärung:
@@ -83,6 +93,8 @@ public class Datentypen {
         //   beliebigen kurzen Text (z. B. "Hallo Welt") zu.
         //
         // TODO: String nachricht = "...";
+
+        String nachricht = "Hallo was geht?";
 
 
         //
@@ -101,6 +113,8 @@ public class Datentypen {
         //
         // TODO: int[] noten = { ..., ..., ... };
 
+        int[] noten = {1,2,3};
+
         // 7) float[]
         // Erklärung:
         //   - Ein float[] speichert mehrere Kommazahlen.
@@ -111,6 +125,8 @@ public class Datentypen {
         //   mindestens zwei Werte mit Nachkommastellen ein.
         //
         // TODO: float[] temperaturen = { ..., ... };
+
+        float[] temperaturen = {36.5f, 37.f};
 
         // 8) boolean[]
         // Erklärung:
@@ -123,6 +139,8 @@ public class Datentypen {
         //
         // TODO: boolean[] anwesend = { ..., ..., ... };
 
+        boolean[] anwesend = {true, false, true};
+
         // 9) String[]
         // Erklärung:
         //   - Ein String[] speichert mehrere Zeichenketten.
@@ -133,6 +151,8 @@ public class Datentypen {
         //   drei verschiedene Namen darin.
         //
         // TODO: String[] namen = { "...", "...", "..." };
+
+        String[] namen = {"Anna", "Ben", "Clara"};
 
 
         //
@@ -150,10 +170,10 @@ public class Datentypen {
         //   Produkte nacheinander mit methode add() hinzu (z. B. "Brot").
         //
         // TODO:
-        // List<String> einkaufsliste = new ArrayList<>();
-        // einkaufsliste.add("...");
-        // einkaufsliste.add("...");
-        // einkaufsliste.add("...");
+        List<String> einkaufsliste = new ArrayList<>();
+        einkaufsliste.add("...");
+        einkaufsliste.add("...");
+        einkaufsliste.add("...");
 
 
         // 11) Map<String, Integer>
@@ -168,9 +188,11 @@ public class Datentypen {
         //   mindestens zwei Einträge hinzu, z. B. ("Anna", 15).
         //
         // TODO:
-        // Map<String, Integer> punktestand = new HashMap<>();
-        // punktestand.put("...", ...);
-        // punktestand.put("...", ...);
+        Map<String, Integer> punktestand = new HashMap<>();
+        punktestand.put("Phil", 10);
+        punktestand.put("Lisa", -10);
+        punktestand.put("Anna", 99);
+        punktestand.put("Anna", 10);
 
 
         // 12) Map<String, String>
@@ -183,9 +205,9 @@ public class Datentypen {
         //   mindestens zwei Einträge hinzu (z. B. "max" → "max@mail.de").
         //
         // TODO:
-        // Map<String, String> benutzerEmail = new HashMap<>();
-        // benutzerEmail.put("...", "...");
-        // benutzerEmail.put("...", "...");
+        Map<String, String> benutzerEmail = new HashMap<>();
+        benutzerEmail.put("Phil", "phil@mail");
+        benutzerEmail.put("Lisa", "lisa@mail");
 
 
         //
@@ -195,30 +217,177 @@ public class Datentypen {
         // Aufgabe 13:
         //   Gib den Wert der Variable "alter" in der Konsole aus:
         //
-        // TODO: System.out.println("Alter: " + alter);
+        System.out.println("Alter: " + geburtsjahr);
 
         // Aufgabe 14:
         //   Gib einen Eintrag aus dem int-Array "noten" aus,
         //   z. B. noten[0] oder noten[2].
         //
-        // TODO: System.out.println("Erste Note: " + noten[0]);
+        System.out.println("Erste Note: " + noten[0]);
 
         // Aufgabe 15:
         //   Gib ein Element der List "einkaufsliste" aus,
         //   z. B. einkaufsliste.get(1).
         //
-        // TODO: System.out.println("Zweites Produkt: " + einkaufsliste.get(1));
+        System.out.println("Zweites Produkt: " + einkaufsliste.get(1));
 
         // Aufgabe 16:
         //   Gib einen Wert aus der Map "punktestand" aus,
         //   z. B. punktestand.get("Anna").
         //
-        // TODO: System.out.println("Punkte von Anna: " + punktestand.get("Anna"));
+        System.out.println("Punkte von Anna: " + punktestand.get("Anna"));
 
         // Aufgabe 17:
         //   Gib eine E-Mail-Adresse aus der Map "benutzerEmail" aus,
         //   z. B. benutzerEmail.get("max").
         //
-        // TODO: System.out.println("E-Mail von max: " + benutzerEmail.get("max"));
+        System.out.println("E-Mail von max: " + benutzerEmail.get("max"));
+
+
+
+
+
+
+
+
+
+
+        List<List<Integer>> list = new ArrayList<>();
+
+        List<Integer> innerList = new ArrayList<>();
+        innerList.add(1);
+        innerList.add(2);
+
+        List<Integer> innerList2 = new ArrayList<>();
+        innerList2.add(3);
+        innerList2.add(4);
+
+        list.add(innerList);
+        list.add(innerList2);
+
+        System.out.println("Erste Liste: " + list.get(0));
+        System.out.println("Erste Liste, zweites Element " + list.get(0).get(1));
+
+
+        Map<String, Map<String, Double>> map = new HashMap<>();
+
+        Map<String, Double> innerMap = new HashMap<>();
+        innerMap.put("Mathematik", 1.5);
+        innerMap.put("Englisch", 2.7);
+
+        Map<String, Double> innerMap2 = new HashMap<>();
+        innerMap2.put("Mathematik", 3.0);
+        innerMap2.put("Englisch", 4.5);
+
+        map.put("Max", innerMap);
+        map.put("Anna", innerMap2);
+
+        System.out.println("Noten von Max: " + map.get("Max"));
+        System.out.println("Note von Max, Mathematik: " + map.get("Max").get("Mathematik"));
+
+        System.out.println("");
+
+        System.out.println("-----------------");
+
+        System.out.println("");
+
+        // 1 Erstelle zwei Ganzzahlen und berechne ihre Summe, Differenz und das Produkt.
+
+        int a = 5;
+        int b = 2;
+
+        int summe = a + b;
+        int differenz = a - b;
+        int produkt = a * b;
+
+        System.out.println("Summe: " + summe);
+        System.out.println("Summe: " + differenz);
+        System.out.println("Summe: " + produkt);
+
+        // 2 Teile eine Zahl durch eine andere und gib das Ergebnis als float aus.
+
+        float c = 10.0f;
+        int d = 3;
+
+        // int / int => int
+
+        // float / int => float
+
+        float ergebnis = c / d;
+
+        System.out.println("Ergebnis: " + ergebnis);
+
+        
+        // 3 Vergleiche zwei Zahlen: Ist die eine größer als die andere?
+
+        // int > int => boolean
+        boolean groesser = a > b;
+
+        // float > int => boolean
+        boolean groesserFloat = c > a;
+
+        // string > int => ???
+        String testString = "Hallo";
+
+        boolean groesserString = testString.length() > a;
+
+        System.out.println("Größer: " + groesser);
+
+        System.out.println("Größer Float: " + groesserFloat);
+
+        System.out.println("Größer String Länge: " + groesserString);
+
+        // 4 Erstelle zwei String-Variablen (z.B. Vorname und Nachname) und füge sie zu
+        // einem vollständigen Namen zusammen.
+
+        String titel = "String gesamt (ohne Variable): ";
+        String string1 = "Hallo, ";
+        String string2 = "wie geht's";
+
+        String stringGesamt = string1 + string2;
+
+        System.out.println("String gesamt: " + stringGesamt);
+
+        System.out.println(titel + stringGesamt);
+
+        
+        // 5 Gib die Länge eines Strings aus.
+        int laengeTitel = titel.length();
+
+        System.out.println("Länge Titel: " + laengeTitel);
+
+        // 6 Erstelle ein String[]-Array mit mindestens 3 Städtenamen und gib den zweiten
+        // Namen aus.
+
+        String[] staedte = {"Hamburg", "München", "Köln", "Bremen", "Stuttgart"};
+
+        System.out.println("Drittes Element: " + staedte[2]);
+
+        // Länge staedte = 5
+        // staedte[5] = ???
+        // staedte[4] == letztes Element (5. Element)
+        String letztesElement = staedte[staedte.length - 1];
+
+        System.out.println("Letztes Element: " + letztesElement);
+
+         // 7 Erstelle eine List<String> mit mindestens 3 Lieblingsessen und füge ein
+        // weiteres hinzu.
+
+        List<String> lieblingsessen = new ArrayList<>();
+
+        lieblingsessen.add("Pizza");
+        lieblingsessen.add("Curry");
+        lieblingsessen.add("Spätzle");
+
+        System.out.println(lieblingsessen.get(0));
+
+        // 8 Erstelle eine Map<String, Integer> mit Namen und Alter. Lies das Alter einer
+        // Person aus der Map.
+
+        Map<String, Integer> map2 = new HashMap<>();
+
+        map2.put("Anna", 40);
+
+        System.out.println("Alter von Anna: " + map2.get("Anna"));
     }
 }

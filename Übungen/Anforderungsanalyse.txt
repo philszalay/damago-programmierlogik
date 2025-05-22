@@ -14,15 +14,71 @@ Mit besten Grüßen,
 Marie Hoffmann
 
 Funktionale Anforderungen:
-- 
+- Übersichtlich einladendes Frontend
 
-- 
+- Multiple Choice Karten
+    - Wie viele Antwortmöglichkeiten? 
 
--
+- Freitext Karten
+    - Wie bestimmt man richtig/falsch?
+
+- Karten sollen einfach zu bearbeiten sein
+
+- Lernkarten sollen vom Nutzer erstellbar sein
+    - Schwierigkeitsgrad
+    - Kategorie
+    - Farbe
+    - Lösung
+    - Fortschritt pro Karten
+    - Erklärung zur Lösung
+    - Frage
+    - Kommentarfeld
+    - Zeitlimit (oder hat es der Test?) - optional
+
+- Übersicht über alle Karten (Darstellung jeder Karte)
+    - Filter
+    - Sortierung
+    - Detailansicht
+
+- Tests mit Lernkarten
+    - Zufällig Auswahl von Karten
+    - Falsch beantwortete Fragen häufiger anzeigen
+    - Scoringsystem
+
+- Benutzerregistrierung
+    - Name
+    - Email
+    - Passwort
+    - Freunde?   
+
+- Statistik
+    - Wie viele Tests wurden absolviert? Pro Woche, pro Monat, pro Jahr?
+    - Wie viele Karten wurden insgesamt erstellt (pro Woche/Monat?)
+    - Wie erfolgreich waren die Tests?
+    - Lernkurve -> Zeitlicher Verlauf der Tests
+
+- Test erstellen
+    - Zeitlimit?
+    - Anzahl der Karten
+    - Schwierigkeitsgrad der Karten
+
+- Mechanismus zur Bewertung von Freitextantworten
+
+- Feedback mit Sound
 
 Nicht-funktionale Anforderungen:
-- 
+- ISO/IEC 25010 Qualitätsmerkmale erfüllt
 
-- 
+- Fertigstellung bis 28.05.2025
 
-- 
+- Offline Anwendung
+
+- Programmiersprache Python
+
+- Desktopanwendung
+
+- Schnelle Ladezeiten
+
+- Passwort verschlüsselt speichern
+
+- Datenbank
